@@ -3,7 +3,7 @@ body, ul, li, p{
     padding: 0px;
     list-style: none;   /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
-    font-family: arial;
+    font-family: Arial;
 }
 
 /* Define o tamanho da imagem do logo - largura */
@@ -12,19 +12,25 @@ body, ul, li, p{
 
 }
 
+/* Digine as caracteristicas da TAG */
+a{
+    text-decoration-color: none; /* tira o sublinado do link */
+    color: white; /* cor do texto*/
+}
+
 /* Define as caracteristicas do header */
 .header{
     /* Cor de fundo */
-    background-color: black;
+    background-color: rgb(4, 187, 211) ;
     /* display flexivel */
     display: flex;
-    /* Organizado em linha */
+    /* Organizado em linhas */
     flex-wrap: wrap;
     /* Espaçamento entre os textos */
     justify-content: space-between;
     /* centralizado */
     align-items: center;
-    /* "margem interna!" */
+    /* margem interna */
     padding: 20px;
 
 }
@@ -41,7 +47,17 @@ body, ul, li, p{
 .menu li a{
     display: block;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: rgb(46, 44, 44);
 
+ 
+}
 
+/*Fazendo o corpo do site*/
+
+.flex{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
 }
