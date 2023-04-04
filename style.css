@@ -1,63 +1,57 @@
 body, ul, li, p{
     margin: 0px;
     padding: 0px;
-    list-style: none;   /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
     font-family: Arial;
 }
 
 /* Define o tamanho da imagem do logo - largura */
 .logo{
-    width: 200px;
+    width: 145px;
 
 }
 
-/* Digine as caracteristicas da TAG */
+.lista-itens{
+    display: inline-block;
+    margin: 50px 30px;
+    font-size: 17px;
+}
 a{
-    text-decoration-color: none; /* tira o sublinado do link */
-    color: white; /* cor do texto*/
+    text-decoration: none;
+    color: white;
 }
-
-/* Define as caracteristicas do header */
 .header{
-    /* Cor de fundo */
+/* Cor de fundo */
     background-color: rgb(4, 187, 211) ;
-    /* display flexivel */
-    display: flex;
-    /* Organizado em linhas */
-    flex-wrap: wrap;
-    /* Espaçamento entre os textos */
+/*cor da letra*/
+    color: rgb(80, 79, 79);
+/* display flexivel */
+    display: flex ;
+/* Espaçamento entre os textos */
     justify-content: space-between;
-    /* centralizado */
-    align-items: center;
-    /* margem interna */
-    padding: 20px;
-
-}
-
-.menu{
-     display: flex;
-}
-
-/* distancia entre as palavras do link */
-.menu li{
-    margin-left: 10px;
-}
-
-.menu li a{
-    display: block;
+/* margem interna */
     padding: 10px;
-    background-color: rgb(46, 44, 44);
-
- 
+/*linha do link*/
+    list-style: none;
 }
 
-/*Fazendo o corpo do site*/
 
-.flex{
-    min-height: 100vh;
-    background-color: white;
+
+.div-imagen01{
     display: flex;
-    flex-direction: column;
-    
+    justify-content: end;
+    padding: 60px 100px 0 0;
+}
+.imagen01{
+   width: 50%;
+}
+.item{
+    width: 2500px
+}
+.flex{
+    background-image: linear-gradient(black,rgb(80, 79, 79));
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 60% 100px;   
 }
