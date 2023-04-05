@@ -1,20 +1,42 @@
 body, ul, li, p{
     margin: 0px;
     padding: 0px;
+    list-style: none; /* tira a marcação do link (bolinha por exemplo) */
     font-size: 1.2rem;
     font-family: Arial;
 }
 
 /* Define o tamanho da imagem do logo - largura */
 .logo{
-    width: 145px;
+    width: 200px;
 
 }
 
-.lista-itens{
-    display: inline-block;
-    margin: 50px 30px;
-    font-size: 17px;
+/* Define as caracteristicas da TAG ancor */
+a{
+    text-decoration: none;   /* tira o sublinhado do link */
+    color: white;          /* Cor do texto */
+}
+
+/* Define as caracteristicas do header */
+
+.header{     
+    /* Cor de fundo */
+    background-color: black;
+    /* display flexivel */
+    display: flex;
+    /* Organizando em linha */
+    justify-content: space-between;
+    /* centralizando */
+    align-items: center;
+    /* "margem interna */
+    padding: 20px;
+}
+
+/* Define o tamanho da imagem do logo - largura */
+.logo{
+    width: 200px;  
+    
 }
 a{
     text-decoration: none;
@@ -35,14 +57,12 @@ a{
     list-style: none;
 }
 
-
-
 .div-imagen01{
     display: flex;
     justify-content: end;
     padding: 60px 100px 0 0;
 }
-.imagen01{
+.imagem{
    width: 50%;
 }
 .item{
