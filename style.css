@@ -63,16 +63,14 @@ a{
     height: auto;
 }
 
-/* Ajustando os itens da pagina /*
+/* Ajustando os itens da pagina */
 
 .item{
     display: flex;
-    /* justify-content: flex-end; */
-    /*center, flex-end* - podem ser usados*/
-    aling-items; flex-start;
+    align-items: flex-start;
     border: 2px solid black;
     margin: 10 px;
-{} 
+} 
 
 .paragrafo{
     font-family: 'Poppins', sans-serif;
@@ -93,16 +91,14 @@ a{
 .header{
 /* Cor de fundo */
     background-color: rgb(4, 187, 211) ;
-/*cor da letra*/
-    color: rgb(80, 79, 79);
 /* display flexivel */
     display: flex ;
 /* Espaçamento entre os textos */
     justify-content: space-between;
 /* margem interna */
-    padding: 10px;
-/*linha do link*/
-    list-style: none;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .div-imagen01{
