@@ -1,4 +1,4 @@
-body, ul, li, p{
+body,ul,p{
     margin: 0px;
     padding: 0px;
     list-style: none; /* tira a marcação do link (bolinha por exemplo) */
@@ -9,28 +9,29 @@ body, ul, li, p{
 /* Define o tamanho da imagem do logo - largura */
 .logo{
     width: 200px;
-
 }
 
-/* Define as caracteristicas da TAG ancor */
+/* Degine as caracteristicas da TAG */
 a{
-    text-decoration: none;   /* tira o sublinhado do link */
-    color: white;          /* Cor do texto */
+    text-decoration: none;  /* tira o sublinhado do link */
+    color: black;  /* cor do texto*/
 }
 
-/* Define as caracteristicas do header */
-
-.header{     
+/*Define as caracteristicas do header */
+.header{
     /* Cor de fundo */
-    background-color: black;
-    /* display flexivel */
+    background-color: rgb(255, 0, 0);
+    /*display flexivel */
     display: flex;
-    /* Organizando em linha */
+    /*organizado em linhas */
+    flex-wrap: wrap;
+    /*espacamento entre os textos */
     justify-content: space-between;
-    /* centralizando */
+    /*centralizado */
     align-items: center;
-    /* "margem interna */
+    /*margem interna */
     padding: 20px;
+
 }
 
 .menu{
@@ -42,80 +43,62 @@ a{
     margin-left: 10px;
 }
 
-.menu li a {
+.menu li a{
     display: block;
     padding: 10px;
-    /* background-color: #5e17eb; */
+    background-color: rgb(255, 0, 0);
+
 }
 
-/* ********************* FAZENDO O CORPO DO SITE ********************** */
+/*Fazendo o corpo do site*/
 
 .flex{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     display: flex;
     flex-direction: column;
 
 }
-/* Ajustando o tamanho da imagem */
+/*ajustando o tamanho da imagem */
 .imagem{
-    width: 200px;
+    width: 300px;
     height: auto;
 }
 
-/* Ajustando os itens da pagina */
+/* ajustando os itens da oagina */
 
 .item{
     display: flex;
+    /* justify-content: flex-end; */
     align-items: flex-start;
     border: 2px solid black;
-    margin: 10 px;
-} 
+    margin: 10px;
+}
 
 .paragrafo{
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Raleway', sans-serif;
     padding: 10px;
     text-align: justify;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Define o tamanho da imagem do logo - largura */
-.logo{
-    width: 200px;  
-    
+/*ajustando o cabeçalho */
+
+.footer{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    font-size: 30px;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-.header{
-/* Cor de fundo */
-    background-color: rgb(4, 187, 211) ;
-/* display flexivel */
-    display: flex ;
-/* Espaçamento entre os textos */
-    justify-content: space-between;
-/* margem interna */
-    padding: 20px;
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.div-imagen01{
-    display: flex;
-    justify-content: end;
-    padding: 60px 100px 0 0;
-}
-.imagem{
-   width: 50%;
-}
-.item{
-    width: 2500px
-}
-.flex{
-    background-image: linear-gradient(black,rgb(80, 79, 79));
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 0 60% 100px;   
+.redeLogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }
